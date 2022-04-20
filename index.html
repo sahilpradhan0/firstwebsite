@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="res.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="full_container">
+        <div class="container">
+            <header class="nav">
+                <div class="logo">
+                    <h2>LOGO</h2>
+                </div>
+                <div class="burger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+                <ul class="menu">
+                    <li class="list">
+                        <a href="/">Home</a>
+                    </li>
+                    <li class="list">
+                        <a href="#services">Services</a>
+                    </li>
+                    <li class="list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <li class="list">
+                        <a href="#about">About</a>
+                    </li>
+
+                    <input type="search" placeholder="Search">
+                    <i class="fa fa-search"></i>
+                    </input>
+                </ul>
+            </header>
+
+            <section class="section1" id="services">
+                <main>
+                    <h2 class="title"><span>Meme </span>derived <br> asset change</h2>
+                    <p class="p">a token built for the first </p>
+                    <button class="btn">Get Started</button>
+
+                </main>
+            </section>
+        </div>
+        <section class="section2" id="">
+            <main class="flex">
+                <h2>Ethereum Deposit Address</h2>
+                <input class="input" type="email" placeholder="Enter your email">
+                <p>IMPORTANT: ETHER(ETH) CAN ONLY BE SENT FROM AN E-MAIL WHICH HAS BEEN PRE-REGISTERED</p>
+                <span class="line"></span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo nam velit, quibusdam dolorem
+                    itaque alias facilis consequuntur, ipsum illo officia quas perspiciatis! In, magni earum?</p>
+            </main>
+        </section>
+
+        <section class="section3" id="contact">
+            <form>
+                <h2>Contact Us</h2>
+                <div>
+                    <input type="text" placeholder="Enter your Name" required>
+                </div>
+                <div>
+                    <input type="email" placeholder="Enter your Email" required>
+                </div>
+                <div>
+                    <input type="number" placeholder="Enter your Phone No." required>
+                </div>
+                <div>
+                    <textarea rows="6" placeholder="Enter your Message" required></textarea>
+                </div>
+                <button type="submit" class="btns">Send Message</button>
+            </form>
+        </section>
+        <section class="section4" id="about">
+            <div class="card">
+                <img src="sahil.jpg">
+                <p>I'm a Web designer and a web developer</p>
+                <div class="socialicons">
+                    <a href=""><i class="fa fa-facebook-official"></i></a>
+                    <a href=""><i class="fa fa-linkedin-square"></i></a>
+                    <a href=""><i class="fa fa-pinterest"></i></a>
+                    <a href=""><i class="fa fa-instagram"></i></a>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <main>
+                <p>
+                    Copyright &copy; 2022 || All Rights Reserved.
+                </p>
+            </main>
+        </footer>
+    </div>
+    <script>
+        const menu = document.querySelector('.menu');
+        const burger = document.querySelector('.burger');
+        const nav = document.querySelector('.nav');
+
+        burger.addEventListener('click',() =>{
+            menu.classList.toggle('columnlines');
+            nav.classList.toggle('resp');
+            // burger.classList.toggle('mtop')
+        })  
+    </script>
+</body>
+
+</html>

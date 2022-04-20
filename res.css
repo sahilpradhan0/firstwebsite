@@ -1,0 +1,125 @@
+@media screen and (max-width: 800px){
+
+    .menu{
+        display: none;
+    }
+    .nav.resp{
+        height: 200px;
+    }
+    .menu.columnlines{
+        position: absolute;
+        top: 0;
+        left:1px;
+        background: rgb(42, 43, 44);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 40%;
+    }
+
+    .list a{
+        color: black;
+    }
+    .fa{
+        /* filter: invert(); */
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: white;
+    }
+    .fa-facebook-official:before,
+    .fa-linkedin-square:before,
+    .fa-pinterest:before,
+    .fa-instagram:before{
+        font-size: 16px;  
+        padding: 2px;
+    }
+
+    input[type="search"]{
+        width: 70%;
+    }
+    .logo{
+        font-size: 1.1rem;
+    }
+    .list a{
+        color: white;
+        font-size: 15px;
+    }
+
+    .section1{
+        height: 400px;
+        padding: 20px;
+    }
+    .title{
+        font-size: 45px; 
+    }
+    .burger{
+        display: block;
+        width: 60px;
+        position: absolute;
+        top: 10px;
+        right: 0;
+        cursor: pointer;
+    }
+    .line{
+        color: white;
+        line-height: 1px;
+        height: 0.5px;
+    }
+    .flex h2{
+        color: white;
+        font-size: 25px;
+    }
+    .input{
+        font-size: 10px;
+        width: 150px;
+    }
+    .input::placeholder{
+        padding: 5px;
+    }
+    .flex p{
+        font-size: 15px;
+        padding: 15px;
+    }
+    form h2{
+        font-size: 20px;
+    }
+    form input,textarea{
+        width: 200px;
+        font-size: 12px;
+    }
+    .btns{
+        width: 100px;
+        font-size: 10px;
+    }
+    .section4{
+        height: 400px;
+    }
+    .card{
+        height: 250px;
+        max-height: 250px;
+        margin-top: 15%;
+        width: 150px;
+    }
+    .card img{
+        height: 100px;
+        width: 100px;
+        top: -45%;
+    }
+    .footer main p{
+        font-size: 15px;
+    }
+} 
+
+@media screen and (max-width: 400px){
+    .card{
+        margin-left: 135px;
+        margin-top: 75px;
+    }
+}
+
+@media (min-width: 801px) and (max-width:1500px){
+    .card{
+        position: absolute;
+        margin-top: 100px;
+    }
+}
